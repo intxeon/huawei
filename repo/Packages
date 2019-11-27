@@ -1,0 +1,78 @@
+Package: huawei-atc
+Version: 2019.08.21
+Source: package/utils
+SourceName: atc
+Section: utils
+Architecture: armv7-3.2
+Installed-Size: 39754
+Description:  A program for send AT commands in Huawei routers.
+Filename: huawei-atc_2019.08.21_armv7-3.2.ipk
+Size: 40340
+MD5Sum: 186ee1252153ffe953bf905c2ff2ba35
+SHA256sum: d562e3863a0f2ce3eaf997424871026e511c159d206377102607905864147883
+
+Package: huawei-webui-B52x
+Version: mod1.3_g2019.08.21
+SourceName: huawei-webui
+Section: webui
+Architecture: armv7-3.2
+Installed-Size: 8340933
+Description:  Modified webui for Huawei B52x routers.
+Filename: huawei-webui-B52x_mod1.3_g2019.08.21_armv7-3.2.ipk
+Size: 8330544
+MD5Sum: 0bccfd6a9dd443a5ff2b7302a73e37bd
+SHA256sum: 14b7526980e05c317df798340fd4a378955ed2c7d03cf3067fc3c12ed8dfb992
+
+Package: huawei-base
+Version: 2019.08.20
+SourceName: huawei-base
+Section: base
+Architecture: armv7-3.2
+Installed-Size: 64467
+Description:  Base config for for Huawei routers.
+Filename: huawei-base_2019.08.20_armv7-3.2.ipk
+Size: 65254
+MD5Sum: aeaa8a4de5a4188d91ada673cc5dc103
+SHA256sum: 1c3b5c11c5197cbb96b135a68d9accc51aa9fec3706f2ce9168b5966387d6fda
+
+Package: huawei-dropbear
+Version: 2019.10.25
+Depends: huawei-base, libc, libssp, librt, libpthread
+Conflicts: dropbear
+Source: package/network/services/dropbear
+SourceName: dropbear
+License: MIT
+LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+Section: net
+Architecture: armv7-3.2
+Installed-Size: 96196
+Description:  A small SSH2 server/client designed for Huawei routers.
+Filename: huawei-dropbear_2019.10.25_armv7-3.2.ipk
+Size: 96957
+MD5Sum: abf73b35dae2bce625076528741261ec
+SHA256sum: 360411da6acbf1bd82522501b8457aafe1be3dda246704a094e6cb52c14a8cc3
+
+Package: huawei-ltebase
+Version: 2019.10.25
+SourceName: ltebase
+Section: utils
+Architecture: armv7-3.2
+Installed-Size: 892
+Description:  Test version of the script controlling the main LTE band in Huawei routers.
+Filename: huawei-ltebase_2019.10.25_armv7-3.2.ipk
+Size: 1457
+MD5Sum: 75546a17f03910a444e4c96592b95244
+SHA256sum: 54691dd3e0122223baa2bd61f982c28de31c9adf65b956088c995e002ce91754
+
+Package: huawei-openvpn-gui
+Depends: huawei-base, openvpn-openssl
+Version: 2019.11.02
+SourceName: huawei-openvpn-gui
+Section: net
+Architecture: armv7-3.2
+Installed-Size: 43484
+Description:  OpenVPV GUI for Huawei routers.
+Filename: huawei-openvpn-gui_2019.11.02_armv7-3.2.ipk
+Size: 44188
+MD5Sum: e58b98b27da7441dac4627fd023f648d
+SHA256sum: 5549b17cd5737cd496eb48711470771343b84c56581d8532c48d25f87f366e9e
